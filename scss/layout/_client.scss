@@ -33,9 +33,9 @@
     transition-delay: 0s;
   }
   
-  &:hover,
-  &:focus,
-  &:active {
+  .client-sociale-link:hover,
+  .client-sociale-link:focus,
+  .client-sociale-link:active {
     border-color: var(--accent-txt-cl);
     fill: var(--accent-txt-cl);
   }

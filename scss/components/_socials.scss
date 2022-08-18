@@ -28,14 +28,14 @@
     transition-delay: 0s;
   }
   
-  & :hover,
-  &:focus,
-  &:active {
+  .sociale-link:hover,
+  .sociale-link:focus,
+  .sociale-link:active {
     background-color: var(--accent-txt-cl);
     fill: var(--wight-txt-cl);
   }
-  &:hover .svg-links,
-  &:focus .svg-links,
-  &:active .svg-links {
+  .sociale-link:hover .svg-links,
+  .sociale-link:focus .svg-links,
+  .sociale-link:active .svg-links {
     fill: var(--wight-txt-cl);
   }
