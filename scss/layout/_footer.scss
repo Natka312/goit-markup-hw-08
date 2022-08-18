@@ -1,0 +1,100 @@
+.footer {
+    background: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .footer__conteiner {
+    display: flex;
+  }
+  .footer__left {
+    display: flex;
+    width: 300px;
+    margin-right: 0px;
+    flex-direction: column;
+  }
+  .footer__logo {
+    display: flex;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+  .footer__text {
+    margin-bottom: 9px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  .footer__contact-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    color: #2196f3;
+  }
+  .footer__margin {
+    margin-bottom: 9px;
+  }
+  .subscribe {
+    display: block;
+    padding-top: 12px;
+    margin-left: 93px;
+  }
+  .footer__input-email {
+    display: flex;
+    gap: 12px;
+  }
+  .footer__border {
+    width: 358px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    outline: transparent;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 15px 16px;
+    color: var(--color-svg-links);
+  
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+  }
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-txt-cl);
+  }
+  
+  .footer__btn-icon {
+    fill: var(--wight-txt-cl);
+    margin-left: 10px;
+  }
+  .footer__email-btn {
+    padding: 10px 28px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  
+    margin: 0;
+    padding: 10px 29px;
+  
+    cursor: pointer;
+  }

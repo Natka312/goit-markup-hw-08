@@ -1,0 +1,68 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+  
+    transition: opacity 300ms ease-out, visibility 300ms ease-out;
+  }
+  .backdrop.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1) rotate(0);
+  
+    width: 528px;
+    min-height: 580px;
+  
+    padding: 40px;
+  
+    background-color: #ffffff;
+    border-radius: 4px;
+  
+    opacity: 1;
+    transition: transform 400ms ease-in-out 200ms, opacity 400ms ease-in-out 200ms;
+  }
+  .backdrop.is-hidden .modal {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.3) rotate(1turn);
+  }
+  
+  .modal__btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+  }
+  .modal__btn-icon {
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+  }
+  .modal__btn:focus,
+  .modal__btn:hover,
+  .modal__btn-icon:focus,
+  .modal__btn-icon:hover {
+    cursor: pointer;
+    fill: #2196f3;
+  }

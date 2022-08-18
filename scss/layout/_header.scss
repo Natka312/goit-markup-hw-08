@@ -1,0 +1,11 @@
+.header {
+    background-color: #ffffff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .header__portfolio-line {
+    border-bottom: 1px solid var(--border-heder-c1);
+  }
+  .header__container {
+    display: flex;
+  }
