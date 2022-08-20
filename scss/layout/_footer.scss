@@ -78,10 +78,10 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0s;
   }
-  &:hover,
-  &:focus {
-    border: 1px solid var(--accent-txt-cl);
-  }
+  .footer__border:hover,
+  .footer__border:focus {
+     border: 1px solid var(--accent-txt-cl);
+   }
   
   .footer__btn-icon {
     fill: var(--wight-txt-cl);

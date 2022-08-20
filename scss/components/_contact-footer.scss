@@ -35,16 +35,16 @@
   .footer__svg-links {
     fill: var(--wight-txt-cl);
   }
-  &:hover,
-  &:focus,
-  &:active {
+  .footer__sociale-link:hover,
+  .footer__sociale-link:focus,
+  .footer__sociale-link:active {
     background-color: var(--accent-txt-cl);
     fill: var(--wight-txt-cl);
   }
-  &:hover .svg-links {
+  .footer__sociale-link:hover .footer__svg-links {
     fill: var(--wight-txt-cl);
   }
-  &:focus .svg-links {
+  .footer__sociale-link:focus .footer__svg-links {
     fill: var(--wight-txt-cl);
   }
   

@@ -1,41 +1,41 @@
 .socials {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  .sociale-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-  
-    transition-property: background-color, fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0s;
-  }
-  
-  .svg-links {
-    fill: var(--color-svg-links);
-  
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0s;
-  }
-  
-  .sociale-link:hover,
-  .sociale-link:focus,
-  .sociale-link:active {
-    background-color: var(--accent-txt-cl);
-    fill: var(--wight-txt-cl);
-  }
-  .sociale-link:hover .svg-links,
-  .sociale-link:focus .svg-links,
-  .sociale-link:active .svg-links {
-    fill: var(--wight-txt-cl);
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sociale-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
+}
+
+.svg-links {
+  fill: var(--color-svg-links);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
+}
+
+.sociale-link:hover,
+.sociale-link:focus,
+.sociale-link:active {
+  background-color: var(--accent-txt-cl);
+  fill: var(--wight-txt-cl);
+}
+.sociale-link:hover .svg-links,
+.sociale-link:focus .svg-links,
+.sociale-link:active .svg-links {
+  fill: var(--wight-txt-cl);
+}

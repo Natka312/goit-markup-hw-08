@@ -45,9 +45,9 @@
     background: #2196f3;
     border-radius: 2px;
   }
-  &:hover,
-  &:focus,
-  &:active {
+  .nav__link:hover,
+  .nav__link:focus,
+  .nav__link:active {
     color: var(--accent-txt-cl);
   }
   .nav__svg {
