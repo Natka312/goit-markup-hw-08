@@ -1,25 +1,17 @@
-@mixin section($padding: 94px) {
-  padding-top: $padding;
-  padding-bottom: $padding;
-@media screen and (min-width: 480px) {
-  padding-top: 60px;
-  padding-bottom: 60px;
+@mixin centeredFlex($type) {
+   display: $type;
+   align-items: center;
+   justify-content: center;   
 }
 
-@media screen and (min-width: 768px) {
-  padding-top: 60px;
-  padding-bottom: 60px;
+@mixin justFlex($type) {
+   display: $type;
 }
 
-@media screen and (min-width: 1200px) {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-}
 
-@mixin fonts($fs, $lh, $fw: 400, $ls: 0.02em) {
-  font-weight: $fw;
-  font-size: $fs;
-  line-height: decimal-round($lh / $fs);
-  letter-spacing: $ls;
+@mixin fonts($fs, $lh, $fw: 400, $ls: 0.03em) {
+   font-weight: $fw;
+   font-size: $fs;
+   line-height: calc($lh / $fs);
+   letter-spacing: $ls;   
 }
